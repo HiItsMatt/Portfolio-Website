@@ -4,6 +4,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: hidden;
+}
+
+body{
+    overflow-y: hidden;
 }
 
 .navigation{
@@ -31,7 +36,7 @@ button{
     width: 100%;
     height: 100%;
     margin: 0px;
-
+    cursor: pointer;
 }
 
 .content{
@@ -141,6 +146,145 @@ body{
     width: 100vw;
     height: 100vh;
     z-index: 10;
-    background-image: url('Assets/Projects\ Wallpaper.jpg');
-    transition: all 0.5s ease;
+    background-color:#19327b;
+    transition: all 0.3s ease;
+}
+
+#topLeftTop{
+    background-color: rgb(255,255,255);
+    height: 5px;
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#topLeftLeft{
+    background-color: rgb(255,255,255);
+    height: 100px;
+    width: 5px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#topRightTop{
+    background-color: rgb(255,255,255);
+    height: 5px;
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+#topRightRight{
+    background-color: rgb(255,255,255);
+    height: 100px;
+    width: 5px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+#bottomLeftBottom{
+    background-color: rgb(255,255,255);
+    height: 5px;
+    width: 100px;
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+}
+
+#bottomLeftLeft{
+    background-color: rgb(255,255,255);
+    height: 100px;
+    width: 5px;
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+}
+
+#bottomRightBottom{
+    background-color: rgb(255,255,255);
+    height: 5px;
+    width: 100px;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+
+#bottomRightRight{
+    background-color: rgb(255,255,255);
+    height: 100px;
+    width: 5px;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+
+.Title p{
+    font-family: "Bodoni Moda SC", serif;
+    font-weight: bold;
+    color: white;
+    font-size: 10vh;
+    top: 120px;
+    left: 150px;
+    position: absolute;
+}
+
+.projectSpace{
+    position: absolute;
+    top: 300px;
+    bottom: 300px;
+    left: 150px;
+    right: 150px;
+    display: flex;
+}
+
+.project{
+    flex: 1;
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px dashed white;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.project:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.projectTitle{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: "Raleway", sans-serif;
+}
+
+.projectDescription{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#calendarIcon{
+    filter: invert(100%);
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    transform: translateY(5px);
+}
+
+ul{
+    list-style-type:circle;
+    padding-left: 10px;
+    margin: 20px;
+}
+
+li{
+    font-size: 20px;
+    margin: 10px;
 }
