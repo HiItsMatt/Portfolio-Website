@@ -1,14 +1,23 @@
 function displayProjectPage(){
     let projectPage = document.getElementById("projectPage");
-    projectPage.style.zIndex = "0";
+    let educationPage = document.getElementById("educationPage");
     projectPage.style.top = "0vh";
+    educationPage.style.top = "100vh";
     
 }
 
 function displayHomePage(){
     let projectPage = document.getElementById("projectPage");
-    projectPage.style.zIndex = "0";
     projectPage.style.top = "100vh";
+    let educationPage = document.getElementById("educationPage");
+    educationPage.style.top = "100vh";
+}
+
+function displayEducationPage(){
+    let educationPage = document.getElementById("educationPage");
+    let projectPage = document.getElementById("projectPage");
+    projectPage.style.top = "100vh";
+    educationPage.style.top = "0vh";
 }
 
 function openOnlineCalendar(){
