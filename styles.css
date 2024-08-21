@@ -147,7 +147,7 @@ body{
     width: 100vw;
     height: 100vh;
     z-index: 10;
-    background-color:#19327b;
+    background-color:#0b1127;
     transition: all 0.3s ease;
 }
 
@@ -304,7 +304,7 @@ li{
     width: 100vw;
     height: 100vh;
     z-index: 10;
-    background-color:#1f5650;
+    background-color:#0e1f1d;
     transition: all 0.3s ease;
 }
 
@@ -333,23 +333,10 @@ li{
     border-radius: 20px;
     padding: 20px;
     transition: all 0.3s ease;
-}
-
-.educationDescription h1{
-    font-family: "Montserrat", sans-serif;
-    font-size: fill-available;
-    border: 3px dashed white;
-    border-radius: 20px;
-    padding: 20px;
-    transition: all 0.3s ease;
-    text-align: left;
+    margin-bottom: 10px;
 }
 
 .educationDescription p:hover{
-    background-color: rgba(0,0,0,0.5);
-}
-
-.educationDescription h1:hover{
     background-color: rgba(0,0,0,0.5);
 }
 
@@ -373,7 +360,7 @@ li{
 }
 
 .educationItemName{
-    font-size: 20px;
+    font-size: 25px;
     width: 20vw;
     font-family: "Raleway", sans-serif;
     padding: 20px;
@@ -383,4 +370,42 @@ li{
     font-size: 20px;
     font-family: "Montserrat", sans-serif;
     padding: 20px;
+}
+
+.educationItemContent b{
+    font-size: 25px;
+}
+
+.educationItem h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    text-align: center;
+    margin: 0px;
+}
+
+.educationDescription h1:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.SkillsPage{
+    position: fixed;
+    top:100vh;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background-color:#1f0e1e;
+    transition: all 0.3s ease;
+}
+
+.SkillsPageContent{
+    position: absolute;
+    color: white;
+    top: 300px;
+    left: 150px;
+    right: 150px;
+    bottom: 300px;
+    display: flex;
 }
