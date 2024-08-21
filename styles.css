@@ -400,7 +400,7 @@ li{
     transition: all 0.3s ease;
 }
 
-.SkillsPageContent{
+.skillsPageContent{
     position: absolute;
     color: white;
     top: 300px;
@@ -408,4 +408,102 @@ li{
     right: 150px;
     bottom: 300px;
     display: flex;
+}
+
+.skillSection{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.technicalSkills{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 3px dashed white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.softSkills{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 3px dashed white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.formattingClass{
+    display: flex;
+    flex-direction: row;
+}
+
+.skillHeading{
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    font-weight: bolder;
+}
+
+.skillSectionTitle{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+}
+
+.skillItem{
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+    display: flex;
+    flex: 1;
+}
+
+.skillItemName{
+    width: 5vw;
+
+}
+
+.skillSection:hover{
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+
+}
+
+.softSkillFormattingClass{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.softSkillItem{
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex: 1;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.softSkillItem:hover{
+    background-color: rgba(0,0,0,0.5);
+    
+}
+
+.softSkillItemName{
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    flex: 1;
+}
+
+.softSkillItemRating{
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    flex: 3;
 }
