@@ -251,6 +251,7 @@ body{
     cursor: pointer;
     transition: all 0.3s ease;
     height: fit-content;
+
 }
 
 .project:hover{
@@ -363,25 +364,25 @@ li{
 }
 
 .educationItemName{
-    font-size: 25px;
+    font-size: 15px;
     width: 20vw;
     font-family: "Raleway", sans-serif;
     padding: 20px;
 }
 
 .educationItemContent{
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Montserrat", sans-serif;
     padding: 20px;
 }
 
 .educationItemContent b{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .educationItem h1{
     font-family: "Montserrat", sans-serif;
-    font-size: 50px;
+    font-size: 20px;
     border-radius: 20px;
     padding: 20px;
     transition: all 0.3s ease;
@@ -411,6 +412,9 @@ li{
     right: 150px;
     bottom: 300px;
     display: flex;
+    overflow: scroll;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
 }
 
 .skillSection{
@@ -429,6 +433,7 @@ li{
     padding: 20px;
     border-radius: 20px;
     margin-right: 10px;
+    height: fit-content;
 }
 
 .softSkills{
@@ -439,6 +444,7 @@ li{
     padding: 20px;
     border-radius: 20px;
     margin-left: 10px;
+    height: fit-content;
 }
 
 .formattingClass{
@@ -472,7 +478,6 @@ li{
     font-family: "Montserrat", sans-serif;
     font-weight: bolder;
     flex: 1;
-
 }
 
 .skillSection:hover{
@@ -506,7 +511,7 @@ li{
     font-size: 15px;
     font-family: "Montserrat", sans-serif;
     font-weight: bolder;
-    flex: 1;
+    width: 200px;
 }
 
 .softSkillItemRating{
