@@ -152,8 +152,8 @@ body{
     height: 5px;
     width: 100px;
     position: absolute;
-    top: 100px;
-    left: 100px;
+    top: 5vh;
+    left: 5vw;
 }
 
 #topLeftLeft{
@@ -161,8 +161,8 @@ body{
     height: 100px;
     width: 5px;
     position: absolute;
-    top: 100px;
-    left: 100px;
+    top: 5vh;
+    left: 5vw;
 }
 
 #topRightTop{
@@ -170,8 +170,8 @@ body{
     height: 5px;
     width: 100px;
     position: absolute;
-    top: 100px;
-    right: 100px;
+    top: 5vh;
+    right: 5vw;
 }
 
 #topRightRight{
@@ -179,8 +179,8 @@ body{
     height: 100px;
     width: 5px;
     position: absolute;
-    top: 100px;
-    right: 100px;
+    top: 5vh;
+    right: 5vw;
 }
 
 #bottomLeftBottom{
@@ -188,8 +188,8 @@ body{
     height: 5px;
     width: 100px;
     position: absolute;
-    bottom: 100px;
-    left: 100px;
+    bottom: 5vh;
+    left: 5vw;
 }
 
 #bottomLeftLeft{
@@ -197,8 +197,8 @@ body{
     height: 100px;
     width: 5px;
     position: absolute;
-    bottom: 100px;
-    left: 100px;
+    bottom: 5vh;
+    left: 5vw
 }
 
 #bottomRightBottom{
@@ -206,8 +206,8 @@ body{
     height: 5px;
     width: 100px;
     position: absolute;
-    bottom: 100px;
-    right: 100px;
+    bottom: 5vh;
+    right: 5vw;
 }
 
 #bottomRightRight{
@@ -215,8 +215,8 @@ body{
     height: 100px;
     width: 5px;
     position: absolute;
-    bottom: 100px;
-    right: 100px;
+    bottom: 5vh;
+    right: 5vw;
 }
 
 .Title p{
@@ -224,17 +224,17 @@ body{
     font-weight: bold;
     color: white;
     font-size: 10vh;
-    top: 120px;
-    left: 150px;
+    top: 10vh;
+    left: 10vw;
     position: absolute;
 }
 
 .projectSpace{
     position: absolute;
-    top: 30vh;
+    top: 25vh;
     bottom: calc(20vh);
-    left: 150px;
-    right: 150px;
+    left: 10vw;
+    right: 10vw;
     display: flex;
     overflow: scroll;
     scrollbar-width: none; /* For Firefox */
@@ -312,10 +312,10 @@ li{
 .educationPageContent{
     position: absolute;
     color: white;
-    top: 30vh;
+    top: 25vh;
     bottom: calc(20vh);
-    left: 150px;
-    right: 150px;
+    left: 10vw;
+    right: 10vw;
     display: flex;
     overflow: scroll;
     scrollbar-width: none; /* For Firefox */
@@ -407,10 +407,10 @@ li{
 .skillsPageContent{
     position: absolute;
     color: white;
-    top: 300px;
-    left: 150px;
-    right: 150px;
-    bottom: 300px;
+    top: 25vh;
+    left: 10vw;
+    right: 10vw;
+    bottom: 20vh;
     display: flex;
     overflow: scroll;
     scrollbar-width: none; /* For Firefox */
@@ -449,7 +449,7 @@ li{
 
 .formattingClass{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .skillHeading{
@@ -476,7 +476,6 @@ li{
 .skillItemName{
     font-size: 15px;
     font-family: "Montserrat", sans-serif;
-    font-weight: bolder;
     flex: 1;
 }
 
