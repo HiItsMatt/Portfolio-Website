@@ -7,10 +7,6 @@
     overflow-y: hidden;
 }
 
-body{
-    overflow-y: hidden;
-}
-
 .navigation{
     height: 20vh;
     width: 100%;
@@ -235,11 +231,14 @@ body{
 
 .projectSpace{
     position: absolute;
-    top: 300px;
-    bottom: 300px;
+    top: 30vh;
+    bottom: calc(20vh);
     left: 150px;
     right: 150px;
     display: flex;
+    overflow: scroll;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
 }
 
 .project{
@@ -251,6 +250,7 @@ body{
     color: white;
     cursor: pointer;
     transition: all 0.3s ease;
+    height: fit-content;
 }
 
 .project:hover{
@@ -311,11 +311,14 @@ li{
 .educationPageContent{
     position: absolute;
     color: white;
-    top: 300px;
+    top: 30vh;
+    bottom: calc(20vh);
     left: 150px;
     right: 150px;
-    bottom: 300px;
     display: flex;
+    overflow: scroll;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
 }
 
 .educationDescription{
@@ -341,7 +344,7 @@ li{
 }
 
 .educationItemContainer{
-    flex: 2;
+    flex: 4;
     display: flex;
     flex-direction: column;
 }
@@ -465,7 +468,10 @@ li{
 }
 
 .skillItemName{
-    width: 5vw;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    flex: 1;
 
 }
 
@@ -508,3 +514,183 @@ li{
     font-family: "Montserrat", sans-serif;
     flex: 3;
 }
+
+@media (max-width: 600px) {
+    #topLeftTop{
+        background-color: rgb(255,255,255);
+        height: 5px;
+        width: 100px;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+    
+    #topLeftLeft{
+        background-color: rgb(255,255,255);
+        height: 100px;
+        width: 5px;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+    
+    #topRightTop{
+        background-color: rgb(255,255,255);
+        height: 5px;
+        width: 100px;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+    }
+    
+    #topRightRight{
+        background-color: rgb(255,255,255);
+        height: 100px;
+        width: 5px;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+    }
+    
+    #bottomLeftBottom{
+        background-color: rgb(255,255,255);
+        height: 5px;
+        width: 100px;
+        position: absolute;
+        bottom: 50px;
+        left: 50px;
+    }
+    
+    #bottomLeftLeft{
+        background-color: rgb(255,255,255);
+        height: 100px;
+        width: 5px;
+        position: absolute;
+        bottom: 50px;
+        left: 50px;
+    }
+    
+    #bottomRightBottom{
+        background-color: rgb(255,255,255);
+        height: 5px;
+        width: 100px;
+        position: absolute;
+        bottom: 50px;
+        right: 50px;
+    }
+    
+    #bottomRightRight{
+        background-color: rgb(255,255,255);
+        height: 100px;
+        width: 5px;
+        position: absolute;
+        bottom: 50px;
+        right: 50px;
+    }
+
+    .Title p{
+        font-family: "Bodoni Moda SC", serif;
+        font-weight: bold;
+        color: white;
+        font-size: 7vh;
+        top: 100px;
+        left: 100px;
+        position: absolute;
+    }
+
+    .projectSpace{
+        position: absolute;
+        top: 20vh;
+        bottom: calc(20vh);
+        left: 100px;
+        right: 100px;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+        scrollbar-width: none; /* For Firefox */
+        -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    }
+
+    .educationPageContent{
+        position: absolute;
+        color: white;
+        top: 20vh;
+        bottom: calc(20vh);
+        left: 100px;
+        right: 100px;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+        scrollbar-width: none; /* For Firefox */
+        -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    }
+
+    .educationItemName{
+        font-size: 15px;
+        width: 20vw;
+        font-family: "Raleway", sans-serif;
+        padding: 20px;
+    }
+    
+    .educationItemContent{
+        font-size: 15px;
+        font-family: "Montserrat", sans-serif;
+        padding: 20px;
+    }
+    
+    .educationItemContent b{
+        font-size: 15px;
+    }
+    
+    .educationItem h1{
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        transition: all 0.3s ease;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .skillsPageContent{
+        position: absolute;
+        color: white;
+        top: 20vh;
+        left: 10vw;
+        right: 10vw;
+        bottom: 25vh;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+        scrollbar-width: none; /* For Firefox */
+        -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    }
+
+    .formattingClass{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .skillHeading{
+        font-size: 25px;
+        font-family: "Montserrat", sans-serif;
+        margin: 0px;
+        font-weight: bolder;
+    }
+
+    .technicalSkills{
+        margin: 0px;
+    }
+
+    .softSkills{
+        margin: 0px;
+    }
+
+    .softSkillItemRating{
+        font-size: 15px;
+        font-family: "Montserrat", sans-serif;
+        flex: 3;
+        text-align: right;
+    }
+}
+
