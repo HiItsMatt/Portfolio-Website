@@ -520,6 +520,12 @@ li{
 }
 
 @media (max-width: 600px) {
+    .content{
+        width: 70%;
+    }
+
+    
+
     #topLeftTop{
         background-color: rgb(255,255,255);
         height: 5px;
@@ -596,7 +602,7 @@ li{
         font-family: "Bodoni Moda SC", serif;
         font-weight: bold;
         color: white;
-        font-size: 7vh;
+        font-size: 5vh;
         top: 100px;
         left: 100px;
         position: absolute;
@@ -606,8 +612,8 @@ li{
         position: absolute;
         top: 20vh;
         bottom: calc(20vh);
-        left: 100px;
-        right: 100px;
+        left: 50px;
+        right: 50px;
         display: flex;
         flex-direction: column;
         overflow: scroll;
@@ -620,8 +626,8 @@ li{
         color: white;
         top: 20vh;
         bottom: calc(20vh);
-        left: 100px;
-        right: 100px;
+        left: 50px;
+        right: 50px;
         display: flex;
         flex-direction: column;
         overflow: scroll;
@@ -636,6 +642,11 @@ li{
         padding: 20px;
     }
     
+    .educationItemContentFormatting{
+        display: flex;
+        flex-direction: column;
+    }
+
     .educationItemContent{
         font-size: 15px;
         font-family: "Montserrat", sans-serif;
@@ -660,8 +671,8 @@ li{
         position: absolute;
         color: white;
         top: 20vh;
-        left: 10vw;
-        right: 10vw;
+        left: 50px;
+        right: 50px;
         bottom: 25vh;
         display: flex;
         flex-direction: column;
