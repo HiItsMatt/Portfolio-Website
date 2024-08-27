@@ -16,7 +16,6 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    overflow: hidden;
 }
 
 .navItem{
@@ -537,8 +536,6 @@ li{
     .content{
         width: 70%;
     }
-
-    
 
     #topLeftTop{
         background-color: rgb(255,255,255);
