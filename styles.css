@@ -796,4 +796,11 @@ li{
         color: black;
         box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
     }
+    
+    p.textcontent{
+        
+        font-size: 12px;
+    }
+
+
 }
