@@ -137,8 +137,8 @@ body{
     margin: 0px;
     padding: 0px;
     background-image: url('Assets/Personal\ Website\ Background.jpg');
-    background-size: cover; /* Ensures the image covers the entire background */
-    background-position: center; /* Centers the image */
+    background-size: cover; 
+    background-position: center; 
 }
 
 .ProjectsPage{
