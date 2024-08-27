@@ -370,6 +370,11 @@ li{
     padding: 20px;
 }
 
+.educationItemContentFormatting{
+    display: flex;
+    flex-direction: row;
+}
+
 .educationItemContent{
     font-size: 15px;
     font-family: "Montserrat", sans-serif;
