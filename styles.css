@@ -638,8 +638,8 @@ li{
         color: white;
         top: 20vh;
         bottom: calc(20vh);
-        left: 10vw;
-        right: 10vw;
+        left: 5vw;
+        right: 5vw;
         display: flex;
         flex-direction: column;
         overflow: scroll;
@@ -683,14 +683,14 @@ li{
         position: absolute;
         color: white;
         top: 20vh;
-        left: 50px;
-        right: 50px;
-        bottom: 25vh;
+        left: 5vw;
+        right: 5vw;
+        bottom: 5vw;
         display: flex;
         flex-direction: column;
         overflow: scroll;
-        scrollbar-width: none; /* For Firefox */
-        -ms-overflow-style: none; /* For Internet Explorer and Edge */
+        scrollbar-width: none;
+        -ms-overflow-style: none;
     }
 
     .formattingClass{
@@ -722,5 +722,77 @@ li{
 
     .educationDescription{
         margin-right: 0px;
+    }
+
+    button.Home{
+        background-color: rgba(0,0,0,0.5);
+        backdrop-filter: blur(10px);
+        color: white;
+        font-size: 15px;
+        font-weight: bolder;
+        border: none;
+        transition: all 0.3s ease;
+        z-index: 100;
+        flex: 1;
+    }
+    
+    button.Home:hover{
+        background-color: rgba(255,255,255,0.5);
+        color: black;
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    }
+    
+    button.Projects{
+        background-color: rgba(0,0,0,0.5);
+        backdrop-filter: blur(10px);
+        color: white;
+        font-size: 15px;
+        font-weight: bolder;
+        border: none;
+        transition: all 0.3s ease;
+        z-index: 100;
+        flex: 1;
+    }
+    
+    button.Projects:hover{
+        background-color: rgba(255,255,255,0.5);
+        color: black;
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    }
+    
+    button.Education{
+        background-color: rgba(0,0,0,0.5);
+        backdrop-filter: blur(10px);
+        color: white;
+        font-size: 15px;
+        font-weight: bolder;
+        border: none;
+        transition: all 0.3s ease;
+        z-index: 100;
+        flex: 1;
+    }
+    
+    button.Education:hover{
+        background-color: rgba(255,255,255,0.5);
+        color: black;
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    }
+    
+    button.Skills{
+        backdrop-filter: blur(10px);
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        font-size: 15px;
+        font-weight: bolder;
+        border: none;
+        transition: all 0.3s ease;
+        z-index: 100;
+        flex: 1;
+    }
+    
+    button.Skills:hover{
+        background-color: rgba(255,255,255,0.5);
+        color: black;
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
     }
 }
