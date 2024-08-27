@@ -8,6 +8,9 @@
 }
 
 .navigation{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
     height: 20vh;
     width: 100%;
     display: flex;
@@ -241,8 +244,8 @@ body{
     right: 10vw;
     display: flex;
     overflow: scroll;
-    scrollbar-width: none; /* For Firefox */
-    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
 }
 
 .project{
@@ -322,8 +325,8 @@ li{
     right: 10vw;
     display: flex;
     overflow: scroll;
-    scrollbar-width: none; /* For Firefox */
-    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
 }
 
 .educationDescription{
@@ -422,8 +425,8 @@ li{
     bottom: 20vh;
     display: flex;
     overflow: scroll;
-    scrollbar-width: none; /* For Firefox */
-    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
 }
 
 .skillSection{
@@ -626,8 +629,8 @@ li{
         display: flex;
         flex-direction: column;
         overflow: scroll;
-        scrollbar-width: none; /* For Firefox */
-        -ms-overflow-style: none; /* For Internet Explorer and Edge */
+        scrollbar-width: none; 
+        -ms-overflow-style: none;
     }
 
     .educationPageContent{
@@ -640,8 +643,8 @@ li{
         display: flex;
         flex-direction: column;
         overflow: scroll;
-        scrollbar-width: none; /* For Firefox */
-        -ms-overflow-style: none; /* For Internet Explorer and Edge */
+        scrollbar-width: none;
+        -ms-overflow-style: none;
     }
 
     .educationItemName{
@@ -721,4 +724,3 @@ li{
         margin-right: 0px;
     }
 }
-
