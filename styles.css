@@ -13,7 +13,7 @@
     bottom: 0px;
     left: 0px;
     height: 20vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
 }
@@ -147,6 +147,8 @@ body{
     background-size: cover; 
     background-position: center; 
     overflow: hidden;
+    width: 100vw;
+    height: 100vh;
 }
 
 .ProjectsPage{
@@ -546,6 +548,10 @@ li{
         height: auto;
     }
 
+    .secondary{
+        font-size: 20px;
+    }
+
     #topLeftTop{
         background-color: rgb(255,255,255);
         height: 5px;
@@ -631,10 +637,9 @@ li{
     .projectSpace{
         position: absolute;
         top: 20vh;
-        bottom: calc(20vh);
+        bottom: 30vh;
         left: 5vw;
         right: 5vw;
-        bottom: 50vh;
         display: flex;
         flex-direction: column;
         overflow: scroll;
@@ -646,7 +651,7 @@ li{
         position: absolute;
         color: white;
         top: 20vh;
-        bottom: 50vh;
+        bottom: 30vh;
         left: 5vw;
         right: 5vw;
         display: flex;
@@ -694,7 +699,7 @@ li{
         top: 20vh;
         left: 5vw;
         right: 5vw;
-        bottom: 50vh;
+        bottom: 30vh;
         display: flex;
         flex-direction: column;
         overflow: scroll;
