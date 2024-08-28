@@ -61,7 +61,6 @@ button.Home{
     border: none;
     transition: all 0.3s ease;
     z-index: 100;
-    flex: 1;
 }
 
 button.Home:hover{
@@ -79,7 +78,6 @@ button.Projects{
     border: none;
     transition: all 0.3s ease;
     z-index: 100;
-    flex: 1;
 }
 
 button.Projects:hover{
@@ -97,7 +95,6 @@ button.Education{
     border: none;
     transition: all 0.3s ease;
     z-index: 100;
-    flex: 1;
 }
 
 button.Education:hover{
@@ -115,7 +112,6 @@ button.Skills{
     border: none;
     transition: all 0.3s ease;
     z-index: 100;
-    flex: 1;
 }
 
 button.Skills:hover{
