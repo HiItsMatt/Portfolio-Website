@@ -633,7 +633,7 @@ li{
     .projectSpace{
         position: absolute;
         top: 20vh;
-        bottom: 30vh;
+        bottom: 20vh;
         left: 5vw;
         right: 5vw;
         display: flex;
@@ -647,7 +647,7 @@ li{
         position: absolute;
         color: white;
         top: 20vh;
-        bottom: 30vh;
+        bottom: 20vh;
         left: 5vw;
         right: 5vw;
         display: flex;
@@ -695,7 +695,7 @@ li{
         top: 20vh;
         left: 5vw;
         right: 5vw;
-        bottom: 30vh;
+        bottom: 20vh;
         display: flex;
         flex-direction: column;
         overflow: scroll;
