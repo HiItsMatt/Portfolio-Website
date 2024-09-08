@@ -136,6 +136,16 @@ p.textcontent{
     font-size: 20px;
 }
 
+p.textcontent:link{
+    color: white;
+    text-decoration: none;
+}
+
+p.textcontent:visited{
+    color: white;
+    text-decoration: none;
+}
+
 body{
     margin: 0px;
     padding: 0px;
