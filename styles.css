@@ -816,7 +816,7 @@ li{
         background-color: rgba(0,0,0,0.5);
         backdrop-filter: blur(10px);
         color: white;
-        font-size: 15px;
+        font-size: 10px;
         font-weight: bolder;
         border: none;
         transition: all 0.3s ease;
@@ -834,7 +834,7 @@ li{
         background-color: rgba(0,0,0,0.5);
         backdrop-filter: blur(10px);
         color: white;
-        font-size: 15px;
+        font-size: 10px;
         font-weight: bolder;
         border: none;
         transition: all 0.3s ease;
@@ -852,7 +852,7 @@ li{
         background-color: rgba(0,0,0,0.5);
         backdrop-filter: blur(10px);
         color: white;
-        font-size: 15px;
+        font-size: 10px;
         font-weight: bolder;
         border: none;
         transition: all 0.3s ease;
@@ -870,7 +870,7 @@ li{
         backdrop-filter: blur(10px);
         background-color: rgba(0,0,0,0.5);
         color: white;
-        font-size: 15px;
+        font-size: 10px;
         font-weight: bolder;
         border: none;
         transition: all 0.3s ease;
