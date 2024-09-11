@@ -554,6 +554,20 @@ li{
         height: auto;
     }
 
+    .navigation{
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        height: 20vh;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navItem * {
+        font-size: 10px;
+    }
+
     .secondary{
         font-size: 20px;
     }
