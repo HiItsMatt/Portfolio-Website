@@ -1,5 +1,5 @@
 .main{
-    height: 80vh;
+    height: 90vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -42,10 +42,6 @@ button{
 
 
 .content{
-    position: absolute;
-    top: 20vh;
-    left: 20vw;
-    right: 20vw;
     height: auto;
     background-color: rgba(0, 0, 0, 1);
     border-radius: 10px;
@@ -183,6 +179,7 @@ body{
 }
 
 .contactInfo{
+    font-family: "Raleway", sans-serif;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -219,9 +216,9 @@ body{
 }
 
 .icon{
-    height: 50px;
-    width: 50px;
-    margin: 10px;
+    height: 70px;
+    width: 70px;
+    margin-right: 20px;
 }
 
 .ProjectsPage{
