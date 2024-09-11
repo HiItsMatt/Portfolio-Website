@@ -887,6 +887,13 @@ li{
     p.textcontent{
         font-size: 12px;
     }
+    .icon{
+        height: 20px;
+        width: 20px;
+        margin-right: 20px;
+    }
 
-
+    .contactInfo{
+        font-size: 10px;
+    }
 }
