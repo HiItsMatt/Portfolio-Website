@@ -18,6 +18,33 @@
             <p class="textcontent">Contact:<br>0452 200 314<br>hi.its.ma77@gmail.com</p>
         </div>
     </div>
+    <div class="contactPage" id="contactPage">
+        <div id="topLeftTop"></div>
+        <div id="topLeftLeft"></div>
+        <div id="topRightTop"></div>
+        <div id="topRightRight"></div>
+        <div id="bottomLeftBottom"></div>
+        <div id="bottomLeftLeft"></div>
+        <div id="bottomRightBottom"></div>
+        <div id="bottomRightRight"></div>
+        <div class="Title">
+            <p>Contact</p>
+        </div>
+        <div class="contactSpace">
+            <div onclick="openInstagram()" class="contactInfo">
+                <img class="icon" id="instagramIcon" src="Assets/instagram-icon.webp">_hi_its_matt
+            </div>
+            <div onclick="openPhone()" class="contactInfo">
+                <img class="icon" id="phoneIcon" src="Assets/phoneIcon.png">0452 200 314
+            </div>
+            <div onclick="openEmail()" class="contactInfo">
+                <img class="icon" id="emailIcon" src="Assets/emailIcon.webp">hi.its.ma77@gmail.com
+            </div>
+            <div onclick="openGithub()" class="contactInfo">
+                <img class="icon" id="githubIcon" src="Assets/githubIcon.png">HiItsMatt
+            </div>
+        </div>
+    </div>
     <div class="ProjectsPage" id="projectPage">
         <div id="topLeftTop"></div>
         <div id="topLeftLeft"></div>
@@ -46,12 +73,13 @@
             <div class="project" id="project2" onclick="openOnlineProjectManager()">
                 <div class="projectTitle" id="project2Title"><img src="Assets/agileBoardIcon.png" id="agileIcon">The Online Project Manager</div>
                 <div class="projectDescription" id="project2Description">
-                    The Online Project Manager is a project similar to Jira or Trello currently in the early stages of development, which I am using to experiment with backend web technologies.
+                    The Online Project Manager is a project manager similar to Jira or Trello, which I used to gain experience and experiment with backend web technologies.
                     <ul>
+                        <li>Full stack web application</li>
                         <li>HTML, CSS and Javascript front end</li>
                         <li>Node.js backend</li>
-                        <li>mySQL Database</li>
-                        <li>Hosted on Google Cloud Platform</li>
+                        <li>Google Cloud mySQL Database</li>
+                        <li>Hosted on Google Cloud Platform App Engine</li>
                     </ul>
                 </div>
             </div>
@@ -205,6 +233,9 @@
         <div class="navItem" onclick="displayHomePage()">
             <button class="Home">Home</button>
         </div>
+        <div class="navItem" onclick="displayContactPage()">
+            <button class="Home">Contact</button>
+        </div>
         <div class="navItem" onclick="displayProjectPage()">
             <button class="Projects">Projects</button>
         </div>
@@ -215,6 +246,7 @@
             <button class="Skills">Skills</button>
         </div>
     </div>
+    
     <script src="script.js" defer></script>
 </body>
 </html>

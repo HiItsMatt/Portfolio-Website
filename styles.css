@@ -39,6 +39,8 @@ button{
     cursor: pointer;
 }
 
+
+
 .content{
     position: absolute;
     top: 20vh;
@@ -155,6 +157,67 @@ body{
     overflow: hidden;
     width: 100vw;
     height: 100vh;
+}
+
+.contactPage{
+    position: fixed;
+    top:100vh;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background-color:#352700;
+    transition: all 0.3s ease;
+}
+
+.contactSpace{
+    position: absolute;
+    top: 25vh;
+    bottom: calc(20vh);
+    left: 10vw;
+    right: 10vw;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.contactInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 50px;
+    flex: 1;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px dashed white;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: fit-content;
+}
+
+#instagramIcon{
+    filter: invert(100%);
+}
+
+#phoneIcon{
+    filter: invert(100%);
+}
+
+#emailIcon{
+    filter: invert(100%);
+}
+
+#githubIcon{
+    filter: invert(100%);
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
 }
 
 .ProjectsPage{
@@ -552,16 +615,6 @@ li{
         left: 10vw;
         right: 10vw;
         height: auto;
-    }
-
-    .navigation{
-        position: absolute;
-        bottom: 0px;
-        left: 0px;
-        height: 20vh;
-        width: 100vw;
-        display: flex;
-        justify-content: space-between;
     }
 
     .navItem * {
