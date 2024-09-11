@@ -198,6 +198,10 @@ body{
     height: fit-content;
 }
 
+.contactInfo:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
 #instagramIcon{
     filter: invert(100%);
 }

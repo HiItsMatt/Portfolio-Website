@@ -60,7 +60,7 @@ function openOnlineCalendar(){
 }
 
 function openOnlineProjectManager(){
-    window.open("https://github.com/HiItsMatt/The-Online-Project-Manager");
+    window.open("https://unique-machine-408802.ts.r.appspot.com");
 }
 
 function openInstagram(){
